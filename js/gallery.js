@@ -85,7 +85,7 @@ galleryContainer.addEventListener('click', event => {
 
  
   const instance = basicLightbox.create(`
-    <img src="${largeImageURL}">
+    <img src="${largeImageURL}" width="800" height="600">
   `, {
     onShow: (instance) => {
       document.addEventListener('keydown', onEscKeyPress);
